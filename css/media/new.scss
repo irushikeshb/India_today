@@ -271,3 +271,54 @@
       }
     }
 }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    // width: 100vw !important;
+    // front page
+    .complete-page {
+      width: 121% !important;
+      .navbar{
+          ul{
+              flex-wrap: nowrap;
+              margin: 0 1em;
+              li:nth-child(2){
+                  width: 80px !important;
+                  padding-right: 1em;
+              }
+          }
+      }
+    }
+    .lve-news {
+      display: none !important;
+    }
+    .footer {
+      width: 121% !important;
+      overflow-y: scroll !important;
+      overflow: hidden;
+      .footer-lnks {
+        margin: 0 !important;
+        .links-lnks {
+          width: 100px !important;
+        }
+      }
+      .ad {
+        width: 100vw;
+        // display: none;
+        .advertisement {
+          margin-left: 15%;
+          text-align: center;
+          .ad-text {
+          //   margin-left: ;
+            // text-align: center;
+            img {
+              height: auto;
+              width: 50px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

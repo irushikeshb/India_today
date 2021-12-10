@@ -220,4 +220,44 @@
     width: 50px !important;
   }
 }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body .complete-page {
+    width: 121% !important;
+  }
+  body .complete-page .navbar ul {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin: 0 1em;
+  }
+  body .complete-page .navbar ul li:nth-child(2) {
+    width: 80px !important;
+    padding-right: 1em;
+  }
+  body .lve-news {
+    display: none !important;
+  }
+  body .footer {
+    width: 121% !important;
+    overflow-y: scroll !important;
+    overflow: hidden;
+  }
+  body .footer .footer-lnks {
+    margin: 0 !important;
+  }
+  body .footer .footer-lnks .links-lnks {
+    width: 100px !important;
+  }
+  body .footer .ad {
+    width: 100vw;
+  }
+  body .footer .ad .advertisement {
+    margin-left: 15%;
+    text-align: center;
+  }
+  body .footer .ad .advertisement .ad-text img {
+    height: auto;
+    width: 50px !important;
+  }
+}
 /*# sourceMappingURL=new.css.map */
